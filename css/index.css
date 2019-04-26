@@ -80,6 +80,29 @@ a {
     margin-bottom: 20px;
 }
 
+.header2 {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.footer2 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card1 {
+    display: flex;
+    width: 300px;
+    flex-flow: column wrap;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
