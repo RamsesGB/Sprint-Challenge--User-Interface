@@ -46,6 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ---------------------------------------------------- */
+
 
 * {
     box-sizing: border-box;
@@ -54,6 +56,28 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+a {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+.header-img {
+    margin-bottom: 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,8 +91,10 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
+    background: white;
+    padding: 0px 100px 0px 100px
 }
 
 .top-content {
@@ -111,6 +137,16 @@ p {
     align-items: center;
     justify-content: center;
 }
+.box1{}
+.box2{}
+.box3{}
+.box4{}
+.box5{}
+.box6{}
+.box7{}
+.box8{}
+.box9{}
+.box10{}
 
 .bottom-content {
     display: flex;
