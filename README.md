@@ -50,7 +50,7 @@ Align-items: center works on the cross-axis.
 
 5. Explain why git is valuable to a team of developers.
 
-gitGit is valuable because of version control. It allows a team to work on the same file simultaneously while keeping track of its entire history. Allowing us to undo or redo any changes as we see fit.
+Git is valuable because of version control. It allows a team to work on the same file simultaneously while keeping track of its entire history. Allowing us to undo or redo any changes as we see fit.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
