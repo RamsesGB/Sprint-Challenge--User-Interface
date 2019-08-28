@@ -46,6 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ---------------------------------------------------- */
+
 
 * {
     box-sizing: border-box;
@@ -54,6 +56,56 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+a {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+.header-img {
+    margin-bottom: 20px;
+}
+
+.header2 {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.footer2 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card1 {
+    display: flex;
+    width: 360px;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px dashed black;
+    padding: 20px 20px 20px 0px;
+    margin: 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,8 +119,23 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
+    background: white;
+    padding: 0px 100px 0px 100px
+}
+
+.about-page {
+    width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 0px 100px 0px 100px
+}
+
+button {
+    border: 2px black solid;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
 }
 
 .top-content {
@@ -104,13 +171,22 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1{background-color: teal;}
+.box2{background-color: gold;}
+.box3{background-color: cadetblue;}
+.box4{background-color: coral;}
+.box5{background-color: crimson;}
+.box6{background-color: forestgreen;}
+.box7{background-color: darkorchid;}
+.box8{background-color: hotpink;}
+.box9{background-color: indigo;}
+.box10{background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -141,6 +217,6 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lightgrey;
     text-decoration: none;
 }
